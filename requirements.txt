@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 langchain>=0.2.0
 langchain-community>=0.2.0
 langchain-core>=0.2.0
@@ -22,3 +23,12 @@ python-dotenv>=1.0.0
 
 fastapi
 streamlit
+=======
+pinecone
+python-dotenv
+pypdf
+langchain
+langchain-huggingface  
+python-docx
+langchain-text-splitters
+sentence-transformers 
