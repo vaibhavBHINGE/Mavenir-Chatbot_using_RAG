@@ -88,6 +88,24 @@ If external cloud inference APIs experience network drops, routing mismatches, o
 
 Non-telecom queries (such as general trivia, recipes, or weather) are intercepted by safety guards and routed directly to the `escalate_to_human` ticketing tool, preserving strict domain boundaries.
 
+## 🚀 Upcoming Roadmap & Next Version Enhancements
+
+The next major release focuses on enterprise-grade hardening, advanced human-in-the-loop workflows, and superior user experience:
+
+* **Advanced Fallback & Intelligent Ticket Creation (`v2.0`):**
+
+  * Transitioning from static fallback text to a dynamic intent-parsing fallback engine that structures missing knowledge queries into JSON payloads.
+  * Integration with enterprise ticketing systems (e.g., Jira, ServiceNow API webhooks) to automatically assign priority tags, attach failing user queries, and route tickets directly to designated telecom engineering teams.
+
+* **Enhanced Human Escalation Workflow:**
+
+  * Introduction of a dedicated "Live Review Queue" panel in the UI where engineers can inspect flagged low-confidence RAG responses, approve auto-generated tickets, and inject human-verified corrections back into the vector database.
+
+* **UI/UX Refinements:**
+
+  * Upgrading the Streamlit frontend layout with dynamic expandable source citation cards, syntax highlighting for protocol flows, and visual indicators tracking agent execution steps (Thought → Action → Observation).
+
+
 ---
 
 ## 🚀 Installation & Local Setup
